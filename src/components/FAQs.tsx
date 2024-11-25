@@ -7,7 +7,7 @@ import {
 
 const FAQs = () => {
   return (
-    <div className="pb-96 mt-28 max-w-5xl mx-auto px-5">
+    <div className="pb-40 mt-28 max-w-5xl mx-auto px-5">
       <div className="bg-white/5 rounded-3xl backdrop-blur-sm p-10">
         <h2 className="md:text-4xl text-center text-3xl font-bold mb-10 font-secondaryUltraBold tracking-wide">
           <span className="text-yellow-500">FAQs</span>
