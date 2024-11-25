@@ -7,9 +7,12 @@ const Navbar: React.FC = () => {
     <nav className="fixed w-full top-0 z-50 backdrop-blur-lg">
       <div className="max-w-7xl mx-auto lg:flex hidden justify-between items-center py-4 px-5">
         {/* Logo */}
-        <div className="logo">
-          <img src="/assets/logo.png" alt="Logo" className="h-16" />
-        </div>
+
+        <NavLink to="/">
+          <div className="logo">
+            <img src="/assets/logo.png" alt="Logo" className="h-16" />
+          </div>
+        </NavLink>
 
         {/* Navigation Links */}
         <ul className="flex space-x-8 font-primaryBold tracking-wide">

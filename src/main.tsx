@@ -4,12 +4,34 @@ import "./index.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import App from "./App";
+import Footer from "./components/Footer";
 
-const About: React.FC = () => (
-  <h1 className="text-center mt-10 text-xl">About Page</h1>
+const AboutUsPage: React.FC = () => (
+  <div className="min-h-screen flex justify-center items-center font-secondaryUltraBold tracking-wider gap-1 text-3xl">
+    <span>About Us</span>
+    <span className="text-primary">Page</span>
+  </div>
 );
-const Contact: React.FC = () => (
-  <h1 className="text-center mt-10 text-xl">Contact Page</h1>
+
+const RoadMapPage: React.FC = () => (
+  <div className="min-h-screen flex justify-center items-center font-secondaryUltraBold tracking-wider gap-1 text-3xl">
+    <span>Roadmap</span>
+    <span className="text-primary">Page</span>
+  </div>
+);
+
+const FAQsPage: React.FC = () => (
+  <div className="min-h-screen flex justify-center items-center font-secondaryUltraBold tracking-wider gap-1 text-3xl">
+    <span>FAQs</span>
+    <span className="text-primary">Page</span>
+  </div>
+);
+
+const ContactUsPage: React.FC = () => (
+  <div className="min-h-screen flex justify-center items-center font-secondaryUltraBold tracking-wider gap-1 text-3xl">
+    <span>Contact Us</span>
+    <span className="text-primary">Page</span>
+  </div>
 );
 
 createRoot(document.getElementById("root")!).render(
@@ -19,9 +41,12 @@ createRoot(document.getElementById("root")!).render(
         <Navbar />
         <Routes>
           <Route path="/" element={<App />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/contact" element={<Contact />} />
+          <Route path="/about-us" element={<AboutUsPage />} />
+          <Route path="/roadmap" element={<RoadMapPage />} />
+          <Route path="/faqs" element={<FAQsPage />} />
+          <Route path="/contact-us" element={<ContactUsPage />} />
         </Routes>
+        <Footer />
       </BrowserRouter>
     </div>
   </StrictMode>

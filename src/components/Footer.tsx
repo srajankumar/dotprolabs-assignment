@@ -55,6 +55,7 @@ const Footer = () => {
           </h2>
           <div className="grid grid-cols-3 gap-10">
             <svg
+              className="hover:scale-105 transition-all duration-200 cursor-pointer"
               xmlns="http://www.w3.org/2000/svg"
               width="40"
               height="40"
@@ -66,6 +67,7 @@ const Footer = () => {
               />
             </svg>
             <svg
+              className="hover:scale-105 transition-all duration-200 cursor-pointer"
               xmlns="http://www.w3.org/2000/svg"
               width="40"
               height="40"
@@ -81,6 +83,7 @@ const Footer = () => {
               />
             </svg>
             <svg
+              className="hover:scale-105 transition-all duration-200 cursor-pointer"
               xmlns="http://www.w3.org/2000/svg"
               width="40"
               height="40"

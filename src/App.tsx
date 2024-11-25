@@ -14,7 +14,6 @@ function App() {
       <Comparison />
       <Features />
       <FAQs />
-      <Footer />
     </>
   );
 }
