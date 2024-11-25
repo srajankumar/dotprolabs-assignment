@@ -14,7 +14,7 @@ const Contact: React.FC = () => (
 
 createRoot(document.getElementById("root")!).render(
   <StrictMode>
-    <div className="bg-[#071624] text-white font-primaryRegular">
+    <div className="bg- text-white font-primaryRegular">
       <BrowserRouter>
         <Navbar />
         <Routes>
