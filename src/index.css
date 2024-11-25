@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: "Raleway-Regular";
+    src: url("/fonts/Raleway/static/Raleway-Regular.ttf");
+  }
+  @font-face {
+    font-family: "Raleway-Medium";
+    src: url("/fonts/Raleway/static/Raleway-Medium.ttf");
+  }
+  @font-face {
+    font-family: "Raleway-SemiBold";
+    src: url("/fonts/Raleway/static/Raleway-SemiBold.ttf");
+  }
+  @font-face {
+    font-family: "Raleway-Bold";
+    src: url("/fonts/Raleway/static/Raleway-Bold.ttf");
+  }
+
+  @font-face {
+    font-family: "NeueMachina-Light";
+    src: url("/fonts/NeueMachina/NeueMachina-Light.otf");
+  }
+  @font-face {
+    font-family: "NeueMachina-Regular";
+    src: url("/fonts/NeueMachina/NeueMachina-Regular.otf");
+  }
+  @font-face {
+    font-family: "NeueMachina-Ultrabold";
+    src: url("/fonts/NeueMachina/NeueMachina-Ultrabold.otf");
+  }
+}
